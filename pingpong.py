@@ -17,3 +17,5 @@ async def ping(ctx): #command function
 async def on_ready():
     print("Bot Ready.") #In the console, we will see "bot ready"
     await client.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="Cool Music")) #On change la presence du bot.
+
+client.run(" bot token ") # replace with your bot token.
